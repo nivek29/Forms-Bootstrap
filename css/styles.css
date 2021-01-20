@@ -1,0 +1,49 @@
+.container{
+    margin-top: 15px;
+border: 2px solid rgb(223, 220, 220);
+border-radius: 3px;
+
+}
+.header{
+    background-color: rgb(206, 204, 204);
+}
+p{
+    font-weight: bold;
+    font-size: 25px;
+}
+.alert{
+   margin: 20px 3px 3px 3px; 
+}
+form{
+    margin: 25px 0px 25px 0px;
+}
+div[class="row"] {
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    margin: 3px 3px 3px 3px;
+}
+.form-footer{
+    margin-top: 12px;
+    margin-bottom: 10px;
+}
+.checks{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: gray;
+}
+.nota{
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    color: rgb(206, 204, 204);
+}
+.btn-secondary{
+    margin-right: 10px;
+}
+.footer{
+    margin-top: 30px;
+    background-color: rgb(206, 204, 204);
+}
+i{
+    color: white;
+}
