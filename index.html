@@ -13,6 +13,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="https://kit.fontawesome.com/6736a5bda3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
+    <script src="validation.js"></script>
     <title>Document</title>
 </head>
 
@@ -32,39 +33,39 @@
 
                 <div class="col-5 ">
                     <label for="exampleFormControlInput1" class="form-label">Card #</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXXXXXX">
+                    <input type="text" class="numTarjeta form-control" id="exampleFormControlInput1" placeholder="XXXXXXXXXXXX" required>
                 </div>
                 <div class="col-3 ">
                     <label for="exampleFormControlInput1" class="form-label">CVC</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                    <input type="text" class="form-control" id="exampleFormControlInput1"
+                        placeholder="name@example.com"  required>
                 </div>
 
                 <div class="col-4 ">
                     <label for="exampleFormControlInput1" class="form-label">Amount $</label>
                     <input type="email" class="form-control" id="exampleFormControlInput1"
-                        placeholder="name@example.com">
+                        placeholder="name@example.com"  required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-6">
                     <label for="exampleFormControlInput1" class="form-label">First Name #</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=""  required>
                 </div>
                 <div class="col-6">
                     <label for="exampleFormControlInput1" class="form-label">Last Name #</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=""  required>
                 </div>
             </div>
             <div class="row">
                 <div class="col-6">
                     <label for="exampleFormControlInput1" class="form-label">State</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="" required>
                 </div>
 
                 <div class="col-3">
                     <label for="exampleFormControlInput1" class="form-label">City#</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <select class="form-select" aria-label="Default select example"  required>
                         <option selected>Open this select menu</option>
                         <option value="1">One</option>
                         <option value="2">Two</option>
@@ -74,10 +75,10 @@
 
                 <div class="col-3">
                     <label for="exampleFormControlInput1" class="form-label">Postal Code</label>
-                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="">
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder=""  required>
                 </div>
             </div>
-        </form>
+        
         <div class="row">
             <div class="col-6">
                 <div class="col-12">
@@ -111,17 +112,17 @@
             </div>
             <div class="col-6">
                 <label for="exampleFormControlTextarea1" class="form-label">Message:</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
                 <label for="exampleFormControlTextarea1" class=" nota form-label">Add any notes here:</label>
             </div>
         </div>
         <div class=" footer row ">
             <div class="form-footer d-flex flex-grow-1 justify-content-end">
                 <button type="button" class="btn btn-secondary">Cancel</button>
-                <button type="button" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-primary">Send</button>
             </div>
         </div>
-
+</form>
     </div>
 
     </div>
